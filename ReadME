@@ -1,1 +1,41 @@
-Our Project
+Rules:
+To work on the project collaboratively with Git and GitHub using individual IDEs, each team member should follow these general steps:
+
+Clone the Repository: Each team member should clone the repository to their local machine using the following command in their command line interface (CMD, Terminal, etc.):
+
+bash
+Copy code
+git clone <repository_URL>
+Replace <repository_URL> with the URL of your GitHub repository.
+
+Create a Branch: Once the repository is cloned, the team member should create a new branch for their task. They can do this using:
+
+css
+Copy code
+git checkout -b <branch_name>
+Replace <branch_name> with a descriptive name for the new branch.
+
+Work on the Task: The team member can now make changes to the code in their local IDE, adding the new feature or making modifications as necessary. They should save the files in the appropriate directory within the cloned repository on their local machine.
+
+Stage and Commit Changes: After making changes, the team member should stage the files they've modified or added using:
+
+csharp
+Copy code
+git add .
+This command stages all changes. Alternatively, specific files can be staged by replacing . with the file names.
+
+Next, they should commit the changes with a descriptive commit message:
+
+sql
+Copy code
+git commit -m "Description of the changes made"
+Push Changes to GitHub: Once changes are committed, the team member can push the branch to GitHub:
+
+perl
+Copy code
+git push origin <branch_name>
+This command pushes the changes in the local branch to the remote repository on GitHub.
+
+Create Pull Request: Finally, the team member should navigate to the GitHub repository's page and create a pull request from their branch to the main branch. This allows the changes to be reviewed and merged into the main project.
+
+By following these steps, each team member can efficiently collaborate on the project, work on their tasks in their respective IDEs, and contribute changes to the shared repository on GitHub.
